@@ -173,7 +173,7 @@ class Settings {
             sidebarTargetWidth: 275,
             allowAutoUnmaximize: true,
             autoCollapseLastSessionWindows: true,
-            rememberOpenPagesBetweenSessions: true,
+            rememberOpenPagesBetweenSessions: false,
             wakeHibernatedPagesOnClick: false,
             animationEnabled: true,
             autoSelectChildrenOnDrag: true,
