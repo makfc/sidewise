@@ -153,8 +153,9 @@ async function postLoad(focusedWin) {
     }
     else {
         // load stored page tree and associate tabs to existing page nodes
-        log('--- loading page tree from storage ---');
-        loadPageTreeFromLocalStorage(storedPageTree);
+        // log('--- loading page tree from storage ---');
+        // loadPageTreeFromLocalStorage(storedPageTree);
+        log('--- disabled loading page tree from storage ---');
 
         setTimeout(startAssociationRun, 2000); // wait a couple seconds for content scripts to get going
         populatePages(true);
